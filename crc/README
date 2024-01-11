@@ -1,0 +1,4 @@
+Commands to run test and open waveform - from crc/tb
+1) iverilog -g2012 ../rtl/crc.v tb_crc.v
+2) vvp a.out
+3) gtkwave waves.vcd
