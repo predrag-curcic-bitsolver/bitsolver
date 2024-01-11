@@ -1,0 +1,4 @@
+Commands to run test and open waveform - from lfsr/tb
+1) iverilog -g2012 ../rtl/lfsr_node.v ../rtl/lfsr.v tb_lfsr.v
+2) vvp a.out
+3) gtkwave waves.vcd
